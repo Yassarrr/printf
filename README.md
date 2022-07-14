@@ -19,7 +19,7 @@ File Functions
 _printf.c
 
 Own Printf Function That Performs Formatted Output Conversion And Print Data.
-holberton.h
+main.h
 
 Header File Where All Prototypes Are Saved.
 get_print_func.c
@@ -168,4 +168,8 @@ Function That Prints An Integer Begining With 0 And u.
 /* Indetifier : % i */
 ev_print_func.c
 
-Function That Returns The Amount Of Indetifiers
+Function That Returns The Amount Of Indetifiers.
+Authors
+
+Abdulyassar Murtala
+@ ALX software engineering programme 2022.
