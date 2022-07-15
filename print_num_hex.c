@@ -25,7 +25,7 @@ int prinnhex(va_list arguments, char *buf, unsigned int ibuf)
 		isnegative = 1;
 	}
 	ibuf = handl_buf(buf, '0', ibuf);
-	buf = handl_buf(buf, 'x', ibuf);
+	ibuf = handl_buf(buf, 'x', ibuf);
 	binary = malloc(sizeof(char) * (32 + 1));
 	binary = fill_binary_array(binary, int_input, isnegative, 32);
 	hexadecimal = malloc(sizeof(char) * (8 + 1));
@@ -38,7 +38,7 @@ int prinnhex(va_list arguments, char *buf, unsigned int ibuf)
 		{
 			ibuf = handl_buf(buf, hexadecimal[i], ibuf);
 			count++;
-												}
+		}
 	}
 	free(binary);
 	free(hexadecimal);
