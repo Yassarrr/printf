@@ -33,8 +33,8 @@ int prinlhex(va_list arguments, char *buf, unsigned int ibuf)
 		if (hexadecimal[i] != '0' && first_digit == 0)
 			first_digit = 1;
 		if (first_digit)
-	{
 		{
+	
 			ibuf = handl_buf(buf, hexadecimal[i], ibuf);
 			count++;
 		}
